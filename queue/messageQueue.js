@@ -29,5 +29,5 @@ console.log(q.readMessage("user1"))//read a message
 console.log(q.readMessage("user2"))//read a message
 
 
-while(q.isQueue("nasa")) //itterate on messages
+while(q.isQueue("nasa")) //iterate on messages
     console.log(q.readMessage("nasa"))
